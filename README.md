@@ -13,7 +13,8 @@ The aim of my project was to introduce variable time-length stream buffering, an
 #### Basic overview of streaming mechanism
 ![Rep switching](https://user-images.githubusercontent.com/24195133/91663058-169ce900-eb04-11ea-8efb-c210d8d3d057.png)  
 Any streaming content is basically splitted into smaller chunks called as segments.
-  
+A stream can have multiple periods. Those periods have adaptation sets. Multiple adaptation sets can be there for multiple language audio, subs.
+Each adaptation sets can have multiple representations(in layman terms video quality). So, while swtiching segments we download different representation according to constraints.
   
 ## Work done:
 * First went to work with creating buffer. It was the most difficult and learning phase. Lots of literature stuff about streaming and thread deadlocks.
