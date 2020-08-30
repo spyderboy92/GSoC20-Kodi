@@ -1,5 +1,5 @@
 # Google Summer of Code’ 20 Wrap Up
-
+![Kodi](https://user-images.githubusercontent.com/24195133/91663660-e5beb300-eb07-11ea-92cc-28c3627561ca.png)
 
 Finally it is time for wrapping up my GSoC project. A great summer journey coming to an end. The community has been more than helpful. I couldn’t have asked for more. 
 
@@ -16,7 +16,8 @@ The aim of my project was to introduce variable time-length stream buffering, an
 * Then went with adding buffer duration UI selection - The problem is different streams have different length of segments. 
 * Network toggling adaptive switching- 
 * Then display toggle
-
+  
+  
 #### Added UI control that can be segregated for noob user to advanced user depending on access  level.  
 ![Screenshot IA(UI- Menu)](https://user-images.githubusercontent.com/24195133/91663084-42b86a00-eb04-11ea-8001-ff82df9bcb63.png)
 Assured Buffer Duration- Tries to always maintain this buffer duration completely.  
