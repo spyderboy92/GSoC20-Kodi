@@ -17,9 +17,8 @@ The aim of my project was to introduce variable time-length stream buffering, an
 * Network toggling adaptive switching- 
 * Then display toggle
 
-
+#### Added UI control that can be segregated for noob user to advanced user depending on access  level.  
 ![Screenshot IA(UI- Menu)](https://user-images.githubusercontent.com/24195133/91663084-42b86a00-eb04-11ea-8001-ff82df9bcb63.png)
-Added UI control that can be segregated for noob user to advanced user depending on access  level.  
 Assured Buffer Duration- Tries to always maintain this buffer duration completely.  
 Max Buffer Duration- The max buffer length to store. Can be configured for movie watching. This will be always filled with best quality.
 Ignore Window Change- If disabled, selection of stream quality will depend on Kodi window size too.
