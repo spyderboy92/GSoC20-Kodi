@@ -27,7 +27,8 @@ Added UI control that can be segregated for noob user to advanced user depending
 Assured Buffer Duration- Tries to always maintain this buffer duration completely. 
 Max Buffer Duration- The max buffer length to store. Can be configured for movie watching. This will be always filled with best quality.
 Ignore Window Change- If disabled, selection of stream quality will depend on Kodi window size too.
-PRs and commit for the work done:
+
+## PRs and commit for the work done:
 
 ### Changes in inputstream.adaptive:
 * https://github.com/peak3d/inputstream.adaptive/pull/494
