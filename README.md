@@ -12,6 +12,14 @@ The aim of my project was to introduce variable time-length stream buffering, an
 ## Work done:
 
 ![Rep switching](https://ibb.co/L0tsq7T)
+* First went to work with buffer. It was the most difficult and thrilling phase. Lots of literature stuff about streaming and thread deadlocks.
+* Then went with adding buffer duration UI selection.
+* Then Network toggling
+* Then display toggle
+
+
+
+
 ![Screenshot IA(UI- Menu)](https://ibb.co/L0tsq7T)
 
 
