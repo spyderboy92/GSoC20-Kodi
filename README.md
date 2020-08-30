@@ -9,9 +9,13 @@ Finally it is time for wrapping up my GSoC project. A great summer journey comin
 Inputstream.adaptive is an add-on for Kodi, written in C++, and handles different streams for Kodi. 
 The aim of my project was to introduce variable time-length stream buffering, and then add adaptive switching of different representations depending upon different constraints like available network bandwidth, available window resolution, computation power available, etc
 
-## Work done:
 
+#### Basic overview of streaming mechanism
 ![Rep switching](https://user-images.githubusercontent.com/24195133/91663058-169ce900-eb04-11ea-8efb-c210d8d3d057.png)
+Any streaming content is basically splitted into smaller chunks called as segments.
+  
+  
+## Work done:
 * First went to work with buffer. It was the most difficult and thrilling phase. Lots of literature stuff about streaming and thread deadlocks.
 * Then went with adding buffer duration UI selection - The problem is different streams have different length of segments. 
 * Network toggling adaptive switching- 
