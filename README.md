@@ -4,7 +4,7 @@
 Finally it is time for wrapping up my GSoC project. A great summer journey coming to an end. The community has been more than helpful. I couldn’t have asked for more. 
 
 
-## The Idea:
+## Intro:
 
 Inputstream.adaptive is an add-on for Kodi, written in C++, and handles different streams for Kodi. 
 The aim of my project was to introduce variable time-length stream buffering, and then add adaptive switching of different representations depending upon different constraints like available network bandwidth, available window resolution, computation power available, etc
