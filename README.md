@@ -11,7 +11,7 @@ The aim of my project was to introduce variable time-length stream buffering, an
 
 ## Work done:
 
-![Rep switching](https://ibb.co/L0tsq7T)
+![Rep switching](https://user-images.githubusercontent.com/24195133/91663058-169ce900-eb04-11ea-8efb-c210d8d3d057.png)
 * First went to work with buffer. It was the most difficult and thrilling phase. Lots of literature stuff about streaming and thread deadlocks.
 * Then went with adding buffer duration UI selection.
 * Then Network toggling
@@ -20,7 +20,7 @@ The aim of my project was to introduce variable time-length stream buffering, an
 
 
 
-![Screenshot IA(UI- Menu)](https://ibb.co/L0tsq7T)
+![Screenshot IA(UI- Menu)](https://user-images.githubusercontent.com/24195133/91663084-42b86a00-eb04-11ea-8001-ff82df9bcb63.png)
 
 
 Added UI control that can be segregated for noob user to advanced user depending on access  level.
