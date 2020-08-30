@@ -17,7 +17,7 @@ Any streaming content is basically splitted into smaller chunks called as segmen
   
 ## Work done:
 * First went to work with creating buffer. It was the most difficult and learning phase. Lots of literature stuff about streaming and thread deadlocks.
-* Network bandwidth based adaptive switching- It takes into account available bandwidth wrt to buffer needed to predict which next segment should be pre-fetched. 
+* Network bandwidth based adaptive switching- It takes into account available bandwidth wrt to buffer fetching required to predict which next segment should be pre-fetched. 
 * Display toggle- If the user changes Kodi window change for certain duration, new display resolution will be taken into consideration for fetching new segments.
   
   
