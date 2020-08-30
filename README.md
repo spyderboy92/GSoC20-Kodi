@@ -1,13 +1,13 @@
 # Google Summer of Code’ 20 Wrap Up
 ![Kodi](https://user-images.githubusercontent.com/24195133/91663660-e5beb300-eb07-11ea-92cc-28c3627561ca.png)
 
-Finally it is time for wrapping up my GSoC project. A great summer journey coming to an end. The community has been more than helpful. I couldn’t have asked for more. 
+A great summer journey coming to an end. Finally it is time for wrapping up my GSoC project. The community has been more than helpful. I couldn’t have asked for more. 
 
 
 ## Intro:
 
 Inputstream.adaptive is an add-on for Kodi, written in C++, and handles different streams for Kodi. 
-The aim of my project was to introduce variable time-length stream buffering, and then add adaptive switching of different representations depending upon different constraints like available network bandwidth, available window resolution, computation power available, etc
+The aim of my project was to introduce variable time-length stream buffering, and then add adaptive switching of different representations depending upon different constraints like available network bandwidth, available window resolution, etc.
 
 
 #### Basic overview of streaming mechanism
@@ -16,17 +16,16 @@ Any streaming content is basically splitted into smaller chunks called as segmen
   
   
 ## Work done:
-* First went to work with buffer. It was the most difficult and thrilling phase. Lots of literature stuff about streaming and thread deadlocks.
-* Then went with adding buffer duration UI selection - The problem is different streams have different length of segments. 
-* Network toggling adaptive switching- 
-* Then display toggle
+* First went to work with creating buffer. It was the most difficult and learning phase. Lots of literature stuff about streaming and thread deadlocks.
+* Network bandwidth based adaptive switching- It takes into account available bandwidth wrt to buffer needed to predict which next segment should be pre-fetched. 
+* Display toggle- If the user changes Kodi window change for certain duration, new display resolution will be taken into consideration for fetching new segments.
   
   
 #### Added UI control that can be segregated for noob user to advanced user depending on access  level.  
 ![Screenshot IA(UI- Menu)](https://user-images.githubusercontent.com/24195133/91663084-42b86a00-eb04-11ea-8001-ff82df9bcb63.png)
-Assured Buffer Duration- Tries to always maintain this buffer duration completely.  
-Max Buffer Duration- The max buffer length to store. Can be configured for movie watching. This will be always filled with best quality.
-Ignore Window Change- If disabled, selection of stream quality will depend on Kodi window size too.
+Assured Buffer Duration- *Tries to always maintain this buffer duration completely.*   
+Max Buffer Duration-     *The max buffer length to store. Can be configured for movie watching. This will be always filled with best quality.*  
+Ignore Window Change-    *If disabled, selection of stream quality will depend on Kodi window size too.*  
 
 ## PRs and commit for the work done:
 
